@@ -16,6 +16,12 @@ int main() {
     else if (percentage >= 65) cout << "Grade: B" << endl;
     else if (percentage >= 50) cout << "Grade: C" << endl;
     else cout << "Grade: F" << endl;
+    float highest = m1;
+if (m2 > highest) highest = m2;
+if (m3 > highest) highest = m3;
+cout << "Highest marks: " << highest << endl;
+
+
  
     return 0;
 }
